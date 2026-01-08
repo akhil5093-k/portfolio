@@ -10,8 +10,7 @@ const Projects = () => {
       description: "A comprehensive interactive Hangman game built with Python and Tkinter, featuring an intuitive graphical user interface, dynamic word selection, and engaging gameplay mechanics. The application demonstrates advanced GUI programming concepts, game state management, and user experience design principles.",
       technologies: ["Python", "Tkinter", "GUI Development", "Game Logic", "Object-Oriented Programming", "Event Handling"],
       category: "Desktop Application",
-      image: "/images/hangman-game.jpg",
-      isImageFile: true,
+      image: "🎮",
       githubUrl: "https://github.com/akhil5093-k/hangman",
       features: [
         "Interactive GUI-based Hangman game with modern Tkinter interface",
@@ -34,8 +33,7 @@ const Projects = () => {
       description: "A sophisticated full-stack quiz competition platform designed for educational institutions and competitive environments. Built with modern web technologies, featuring real-time functionality, comprehensive user management, and scalable architecture. The application supports multiple quiz formats, automated scoring, and detailed analytics for both participants and administrators.",
       technologies: ["React.js", "Node.js", "Express.js", "Firebase Firestore", "Axios", "JWT Authentication", "Socket.io", "Material-UI", "Chart.js"],
       category: "Full Stack Web App",
-      image: "/images/quiz-app.jpg",
-      isImageFile: true,
+      image: "🏆",
       githubUrl: "https://github.com/akhil5093-k/cyberhunt-quiz",
       liveUrl: "https://deploy-teal-ten.vercel.app/",
       features: [
@@ -106,25 +104,7 @@ const Projects = () => {
                 transition={{ duration: 0.3 }}
               >
                 <div className="project-image">
-                  <div className="project-icon">
-                    {project.isImageFile ? (
-                      <img 
-                        src={project.image} 
-                        alt={project.title}
-                        className="project-image-file"
-                        onError={(e) => {
-                          console.log('Image failed to load:', project.image);
-                          e.target.style.display = 'none';
-                          e.target.parentNode.innerHTML = project.title.includes('Hangman') ? '🎮' : '🏆';
-                        }}
-                        onLoad={() => {
-                          console.log('Image loaded successfully:', project.image);
-                        }}
-                      />
-                    ) : (
-                      project.image
-                    )}
-                  </div>
+                  <div className="project-icon">{project.image}</div>
                   <div className="project-category">{project.category}</div>
                 </div>
 
