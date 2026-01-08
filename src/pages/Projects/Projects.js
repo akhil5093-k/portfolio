@@ -10,7 +10,7 @@ const Projects = () => {
       description: "A comprehensive interactive Hangman game built with Python and Tkinter, featuring an intuitive graphical user interface, dynamic word selection, and engaging gameplay mechanics. The application demonstrates advanced GUI programming concepts, game state management, and user experience design principles.",
       technologies: ["Python", "Tkinter", "GUI Development", "Game Logic", "Object-Oriented Programming", "Event Handling"],
       category: "Desktop Application",
-      image: "/background.jpg",
+      image: "https://drive.google.com/uc?export=view&id=1agieFI4CRSSJuxq8UDLXqllmfUqzLuRP",
       isImageFile: true,
       githubUrl: "https://github.com/akhil5093-k/hangman",
       features: [
@@ -34,7 +34,7 @@ const Projects = () => {
       description: "A sophisticated full-stack quiz competition platform designed for educational institutions and competitive environments. Built with modern web technologies, featuring real-time functionality, comprehensive user management, and scalable architecture. The application supports multiple quiz formats, automated scoring, and detailed analytics for both participants and administrators.",
       technologies: ["React.js", "Node.js", "Express.js", "Firebase Firestore", "Axios", "JWT Authentication", "Socket.io", "Material-UI", "Chart.js"],
       category: "Full Stack Web App",
-      image: "/quiz.jpg",
+      image: "https://drive.google.com/uc?export=view&id=1kyrkjwGJ6CjIJKiUdmbUMEYhcLLnc7yG",
       isImageFile: true,
       githubUrl: "https://github.com/akhil5093-k/cyberhunt-quiz",
       liveUrl: "https://deploy-teal-ten.vercel.app/",
