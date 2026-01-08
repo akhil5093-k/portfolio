@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import './Certificates.css';
 
 const Certificates = () => {
+  console.log('Certificates component is rendering');
+  
   const certificates = [
     {
       id: 1,
@@ -88,29 +90,24 @@ const Certificates = () => {
   return (
     <section id="certificates" className="section certificates-section">
       <div className="container">
-        <motion.div
-          className="certificates-content"
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.3 }}
-        >
-          <motion.h2 className="section-title" variants={certificateVariants}>
+        <div className="certificates-content">
+          <h2 className="section-title">
             Certificates & Achievements
-          </motion.h2>
+          </h2>
 
-          <motion.p className="section-subtitle" variants={certificateVariants}>
+          <p className="section-subtitle">
             Certifications and achievements that validate my expertise
-          </motion.p>
+          </p>
+
+          <div style={{color: 'white', fontSize: '18px', textAlign: 'center', marginBottom: '20px'}}>
+            DEBUG: Certificates section is rendering - Total certificates: {certificates.length}
+          </div>
 
           <div className="certificates-grid">
             {certificates.map((certificate) => (
-              <motion.div
+              <div
                 key={certificate.id}
                 className="certificate-card"
-                variants={certificateVariants}
-                whileHover={{ y: -10, scale: 1.02 }}
-                transition={{ duration: 0.3 }}
               >
                 <div className="certificate-header">
                   <div className="certificate-date">{certificate.date}</div>
@@ -136,10 +133,8 @@ const Certificates = () => {
                   </div>
 
                   <div className="certificate-actions">
-                    <motion.button
+                    <button
                       className="btn-view-certificate"
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
                       onClick={() => handleCertificateClick(certificate)}
                     >
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
@@ -147,15 +142,15 @@ const Certificates = () => {
                         <circle cx="12" cy="12" r="3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                       </svg>
                       View Certificate
-                    </motion.button>
+                    </button>
                   </div>
                 </div>
 
                 <div className="certificate-glow"></div>
-              </motion.div>
+              </div>
             ))}
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

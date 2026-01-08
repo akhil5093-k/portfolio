@@ -11,7 +11,6 @@ const Navbar = ({ activeSection }) => {
     { id: 'about', label: 'About' },
     { id: 'skills', label: 'Skills' },
     { id: 'projects', label: 'Projects' },
-    { id: 'resume', label: 'Resume' },
     { id: 'certificates', label: 'Certificates' },
     { id: 'contact', label: 'Contact' }
   ];
@@ -26,12 +25,6 @@ const Navbar = ({ activeSection }) => {
   }, []);
 
   const handleNavClick = (id) => {
-    if (id === 'resume') {
-      // Open resume in new tab
-      window.open('/resume.pdf', '_blank');
-      return;
-    }
-
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
