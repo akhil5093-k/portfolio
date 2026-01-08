@@ -112,6 +112,14 @@ const Projects = () => {
                         src={project.image} 
                         alt={project.title}
                         className="project-image-file"
+                        onError={(e) => {
+                          console.log('Image failed to load:', project.image);
+                          e.target.style.display = 'none';
+                          e.target.parentNode.innerHTML = project.title.includes('Hangman') ? '🎮' : '🏆';
+                        }}
+                        onLoad={() => {
+                          console.log('Image loaded successfully:', project.image);
+                        }}
                       />
                     ) : (
                       project.image
