@@ -54,6 +54,34 @@ const Projects = () => {
         "Load balancing and caching strategies for optimal performance",
         "Comprehensive logging and monitoring system for debugging and analytics"
       ]
+    },
+    {
+      id: 3,
+      title: "HabitFlow - Advanced Habit Tracking App",
+      description: "A comprehensive, production-ready habit tracking application built with React, JavaScript, and Firebase. Features advanced analytics, OTP verification, dark mode, and much more! This full-stack application demonstrates modern web development practices with real-time data synchronization, secure authentication, and beautiful user interface design.",
+      technologies: ["React 18", "JavaScript (ES6+)", "Firebase", "Tailwind CSS", "EmailJS", "Vite", "Lucide React", "React Hot Toast"],
+      category: "Full Stack Web App",
+      image: "📈",
+      githubUrl: "https://github.com/akhil5093-k/habit-tracker.git",
+      liveUrl: "https://habit-tracker-omega-seven.vercel.app/",
+      features: [
+        "Secure Firebase Authentication with email/password and OTP verification",
+        "Professional email templates sent from habitflow5093@gmail.com",
+        "13 comprehensive habit categories: Health, Fitness, Learning, Work, Mindfulness",
+        "Advanced habit templates for quick setup and goal setting with custom units",
+        "Smart sorting and filtering by creation date, streak length, and categories",
+        "Comprehensive analytics dashboard with charts and progress tracking",
+        "Achievement system with badges for milestones and consistency rewards",
+        "Weekly progress charts and visual completion rate tracking",
+        "Streak monitoring with daily streaks and personal best records",
+        "Full dark/light theme support with system preference detection",
+        "Responsive design perfect for desktop, tablet, and mobile devices",
+        "Export/Import functionality for data backup and restoration",
+        "Real-time synchronization across all devices with offline support",
+        "Toast notifications for instant user feedback and loading states",
+        "Modern UI with gradients, shadows, and smooth animations",
+        "Data privacy and security with user-only access controls"
+      ]
     }
   ];
 
