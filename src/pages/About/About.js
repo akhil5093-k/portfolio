@@ -50,7 +50,7 @@ const About = () => {
                     <div className="education-content">
                       <h5>CVR College of Engineering, Hyderabad</h5>
                       <p className="degree">B-Tech in Computer Science & Cyber Security</p>
-                      <p className="grade">CGPA: 8.69</p>
+                      <p className="grade">CGPA: 8.84</p>
                     </div>
                   </motion.div>
 

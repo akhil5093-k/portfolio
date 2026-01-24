@@ -60,6 +60,17 @@ const Certificates = () => {
       skills: ["IT Industry Knowledge", "Career Development", "Technology Transition", "Industry Skills"],
       credentialId: "TCS-ION-2024-005",
       file: "https://drive.google.com/file/d/1DrW52mTPtwKkRyfMLvIj2mGRZwrLiquE/view?usp=sharing"
+    },
+    {
+      id: 6,
+      title: "Red Hat Training: Getting Started with Linux Fundamentals",
+      issuer: "Red Hat, Inc.",
+      date: "December 18, 2025",
+      description: "Successfully attended and completed the Red Hat Training: Getting Started with Linux Fundamentals (RH104 – RHA), Version 9.1. This course provided foundational knowledge of Linux operating systems, including essential command-line usage, system navigation, file management, and core Linux concepts aligned with industry standards.",
+      image: "🐧",
+      skills: ["Linux Operating Systems", "Command-Line Interface", "System Navigation", "File Management", "Linux Fundamentals"],
+      credentialId: "REDHAT-LINUX-2025-006",
+      file: "https://drive.google.com/file/d/1G7e0GBlOidhcfH-63ppPlhI4zxNEPLoQ/view?usp=sharing"
     }
   ];
 
@@ -98,10 +109,6 @@ const Certificates = () => {
           <p className="section-subtitle">
             Certifications and achievements that validate my expertise
           </p>
-
-          <div style={{color: 'white', fontSize: '18px', textAlign: 'center', marginBottom: '20px'}}>
-            DEBUG: Certificates section is rendering - Total certificates: {certificates.length}
-          </div>
 
           <div className="certificates-grid">
             {certificates.map((certificate) => (
