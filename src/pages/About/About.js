@@ -21,7 +21,6 @@ const About = () => {
       transition: { duration: 0.6 }
     }
   };
-
   return (
     <section id="about" className="section about-section">
       <div className="container">
