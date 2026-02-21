@@ -76,11 +76,11 @@ const Certificates = () => {
       id: 7,
       title: "Cisco Networking Certification",
       issuer: "Cisco",
-      date: "2025",
+      date: "2026",
       description: "Successfully completed Cisco networking certification program, gaining comprehensive knowledge of network fundamentals, routing and switching, network security, and infrastructure management. This certification validates expertise in designing, implementing, and troubleshooting enterprise network solutions.",
       image: "🌐",
       skills: ["Network Fundamentals", "Routing & Switching", "Network Security", "Infrastructure Management", "Troubleshooting"],
-      credentialId: "CISCO-NET-2025-007",
+      credentialId: "CISCO-NET-2026-007",
       file: "https://drive.google.com/file/d/176XOXtzhP9NSRXir66bX8d6fVx3bRDpk/view?usp=sharing"
     }
   ];
