@@ -4,7 +4,7 @@ import './Home.css';
 
 const Home = () => {
   const handleViewResume = () => {
-    window.open('https://drive.google.com/file/d/14IoJuhaYEGK2ns6RBizsJMLTH6QDuHhy/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1xPkgo9IVktuMKwrCjzf_uG1D54YoRCBq/view?usp=sharing', '_blank');
   };
 
   const handleContactMe = () => {

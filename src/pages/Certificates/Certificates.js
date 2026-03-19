@@ -82,6 +82,17 @@ const Certificates = () => {
       skills: ["Network Fundamentals", "Routing & Switching", "Network Security", "Infrastructure Management", "Troubleshooting"],
       credentialId: "CISCO-NET-2026-007",
       file: "https://drive.google.com/file/d/176XOXtzhP9NSRXir66bX8d6fVx3bRDpk/view?usp=sharing"
+    },
+    {
+      id: 8,
+      title: "Fortinet Network Security Expert (NSE) Certifications",
+      issuer: "Fortinet",
+      date: "2025",
+      description: "Completed NSE 1, NSE 2, and NSE 3 certifications, gaining a strong foundation in cybersecurity concepts, threat awareness, and network security principles, along with practical knowledge of data protection strategies and Fortinet security solutions such as firewalls and enterprise threat management.",
+      image: "🛡️",
+      skills: ["Cybersecurity Concepts", "Threat Awareness", "Network Security", "Data Protection", "Fortinet Firewalls", "Enterprise Threat Management"],
+      credentialId: "FORTINET-NSE-2025-008",
+      file: "https://drive.google.com/file/d/1-XZiJXWMISpc1IdV7slXPXOABZDFH_Pm/view?usp=sharing"
     }
   ];
 
