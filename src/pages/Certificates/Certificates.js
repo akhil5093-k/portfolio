@@ -74,23 +74,34 @@ const Certificates = () => {
     },
     {
       id: 7,
-      title: "Cisco Networking Certification",
-      issuer: "Cisco",
-      date: "2026",
-      description: "Successfully completed Cisco networking certification program, gaining comprehensive knowledge of network fundamentals, routing and switching, network security, and infrastructure management. This certification validates expertise in designing, implementing, and troubleshooting enterprise network solutions.",
+      title: "Cisco Networking Academy – Introduction to Cybersecurity",
+      issuer: "Cisco Networking Academy",
+      date: "2025",
+      description: "Completed an introductory course on cybersecurity fundamentals, covering the importance of securing digital systems, protecting data, and understanding common cyber threats. Developed foundational knowledge of how cyberattacks occur and how organizations defend against them.",
       image: "🌐",
-      skills: ["Network Fundamentals", "Routing & Switching", "Network Security", "Infrastructure Management", "Troubleshooting"],
-      credentialId: "CISCO-NET-2026-007",
-      file: "https://drive.google.com/file/d/176XOXtzhP9NSRXir66bX8d6fVx3bRDpk/view?usp=sharing"
+      skills: ["Cybersecurity Fundamentals", "Network & Information Security", "Threats, Vulnerabilities & Attacks", "Security Principles (CIA)", "Safe Online Practices", "Organizational Security Awareness"],
+      credentialId: "CISCO-INTRO-2025-007",
+      file: "https://drive.google.com/file/d/16-UjYNep8Ch4SSJn0wNPoG5IhZ8kkR3f/view?usp=sharing"
+    },
+    {
+      id: 9,
+      title: "Cisco Networking Academy – Ethical Hacking",
+      issuer: "Cisco Networking Academy",
+      date: "2025",
+      description: "Completed a comprehensive ethical hacking course focused on identifying, analyzing, and mitigating security vulnerabilities in systems and networks. Gained practical knowledge of penetration testing methodologies, cybersecurity tools, and real-world attack scenarios.",
+      image: "🧪",
+      skills: ["Network Security & Vulnerability Assessment", "Penetration Testing", "Web Application Security", "Identifying & Exploiting Vulnerabilities", "Security Best Practices", "Risk Analysis and Reporting", "Nmap", "Wireshark", "Metasploit", "Kali Linux"],
+      credentialId: "CISCO-ETH-2025-009",
+      file: "https://drive.google.com/file/d/1uKDEFB4K_8GJSgFfVtK1NE_iKht5gCCp/view?usp=sharing"
     },
     {
       id: 8,
-      title: "Fortinet Network Security Expert (NSE) Certifications",
+      title: "Fortinet NSE 1, NSE 2, NSE 3 – Network Security Associate",
       issuer: "Fortinet",
       date: "2025",
-      description: "Completed NSE 1, NSE 2, and NSE 3 certifications, gaining a strong foundation in cybersecurity concepts, threat awareness, and network security principles, along with practical knowledge of data protection strategies and Fortinet security solutions such as firewalls and enterprise threat management.",
+      description: "Completed Fortinet's Network Security Associate certifications, gaining foundational to intermediate knowledge in cybersecurity concepts, network protection strategies, and Fortinet security solutions. Developed an understanding of threat landscapes and enterprise security architecture. Includes hands-on lab experience with FortiAnalyzer for log management, traffic monitoring, and incident tracking.",
       image: "🛡️",
-      skills: ["Cybersecurity Concepts", "Threat Awareness", "Network Security", "Data Protection", "Fortinet Firewalls", "Enterprise Threat Management"],
+      skills: ["Network Security Fundamentals", "Firewall Concepts & Configuration", "Threat Intelligence & Attack Types", "Security Fabric Architecture", "Traffic Monitoring & Analysis", "Security Operations Basics", "FortiGate", "FortiAnalyzer", "Basic SIEM Concepts"],
       credentialId: "FORTINET-NSE-2025-008",
       file: "https://drive.google.com/file/d/1-XZiJXWMISpc1IdV7slXPXOABZDFH_Pm/view?usp=sharing"
     }

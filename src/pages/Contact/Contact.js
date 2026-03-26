@@ -19,7 +19,7 @@ const Contact = () => {
       description: "Call me for urgent matters or quick discussions",
       icon: "📱",
       action: "tel:+917569834897",
-      label: "+91 75698 34897",
+      label: "Call Here",
       color: "#00ccff"
     },
     {
@@ -43,16 +43,11 @@ const Contact = () => {
   ];
 
   const handleContactClick = (method) => {
-    console.log('Contact method clicked:', method.title, method.action);
-    
     if (method.title === "Email") {
-      // For email, use window.location.href to open default email client
-      window.location.href = method.action;
+      window.open('https://mail.google.com/mail/?view=cm&to=akhilnayak509321@gmail.com', '_blank');
     } else if (method.title === "Phone") {
-      // For phone, use window.location.href to initiate call
       window.location.href = method.action;
     } else {
-      // For other links (GitHub, Location), open in new tab
       window.open(method.action, '_blank');
     }
   };
