@@ -51,17 +51,6 @@ const Certificates = () => {
       file: "https://drive.google.com/file/d/1j1HgshHnMHH0sirXNen-0vtfkYWexMO0/view?usp=sharing"
     },
     {
-      id: 5,
-      title: "TCS iON Career Edge – IT Industry Overview",
-      issuer: "TCS iON",
-      date: "2024",
-      description: "Completed comprehensive program covering IT industry overview, career development strategies, and essential skills for transitioning into the technology sector.",
-      image: "💼",
-      skills: ["IT Industry Knowledge", "Career Development", "Technology Transition", "Industry Skills"],
-      credentialId: "TCS-ION-2024-005",
-      file: "https://drive.google.com/file/d/1DrW52mTPtwKkRyfMLvIj2mGRZwrLiquE/view?usp=sharing"
-    },
-    {
       id: 6,
       title: "Red Hat Training: Getting Started with Linux Fundamentals",
       issuer: "Red Hat, Inc.",
@@ -74,25 +63,14 @@ const Certificates = () => {
     },
     {
       id: 7,
-      title: "Cisco Networking Academy – Introduction to Cybersecurity",
+      title: "CCNA & Cybersecurity – Cisco Networking Academy",
       issuer: "Cisco Networking Academy",
       date: "2025",
-      description: "Completed an introductory course on cybersecurity fundamentals, covering the importance of securing digital systems, protecting data, and understanding common cyber threats. Developed foundational knowledge of how cyberattacks occur and how organizations defend against them.",
+      description: "Completed industry-recognized Cisco Networking Academy courses covering networking, cybersecurity, ethical hacking, threat management, and network defense. Gained hands-on knowledge of TCP/IP, routing and switching, security operations, and cyber threat analysis. This certificate covers 8 completed Cisco courses.",
       image: "🌐",
-      skills: ["Cybersecurity Fundamentals", "Network & Information Security", "Threats, Vulnerabilities & Attacks", "Security Principles (CIA)", "Safe Online Practices", "Organizational Security Awareness"],
-      credentialId: "CISCO-INTRO-2025-007",
-      file: "https://drive.google.com/file/d/16-UjYNep8Ch4SSJn0wNPoG5IhZ8kkR3f/view?usp=sharing"
-    },
-    {
-      id: 9,
-      title: "Cisco Networking Academy – Ethical Hacking",
-      issuer: "Cisco Networking Academy",
-      date: "2025",
-      description: "Completed a comprehensive ethical hacking course focused on identifying, analyzing, and mitigating security vulnerabilities in systems and networks. Gained practical knowledge of penetration testing methodologies, cybersecurity tools, and real-world attack scenarios.",
-      image: "🧪",
-      skills: ["Network Security & Vulnerability Assessment", "Penetration Testing", "Web Application Security", "Identifying & Exploiting Vulnerabilities", "Security Best Practices", "Risk Analysis and Reporting", "Nmap", "Wireshark", "Metasploit", "Kali Linux"],
-      credentialId: "CISCO-ETH-2025-009",
-      file: "https://drive.google.com/file/d/1uKDEFB4K_8GJSgFfVtK1NE_iKht5gCCp/view?usp=sharing"
+      skills: ["TCP/IP & Networking Fundamentals", "Routing & Switching", "Cybersecurity Fundamentals", "Ethical Hacking", "Threat Management", "Network Defense", "Security Operations", "Cyber Threat Analysis"],
+      credentialId: "CISCO-CCNA-CYBER-2025-007",
+      file: "https://drive.google.com/file/d/1roQhZlwIJiHD2Dg-08iZQ6J2kvO_0MkB/view?usp=sharing"
     },
     {
       id: 8,

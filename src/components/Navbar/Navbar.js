@@ -46,7 +46,6 @@ const Navbar = ({ activeSection }) => {
           whileTap={{ scale: 0.95 }}
         >
           <span className="logo-text">Akhil Nayak</span>
-          <span className="logo-accent">.</span>
         </motion.div>
 
         <div className={`nav-menu ${isMobileMenuOpen ? 'active' : ''}`}>
