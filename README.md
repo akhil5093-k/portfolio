@@ -2,11 +2,11 @@
 
 A modern, responsive personal portfolio website built with React.js, showcasing my skills, projects, education, and professional experience in Computer Science and Cybersecurity.
 
-## 🌟 Live Demo
+## Live Demo
 
-[View Live Portfolio](https://your-portfolio-url.com) *(Update with your deployed URL)*
+[View Live Portfolio](https://akhil5093-k.github.io/portfolio)
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [About](#about)
 - [Features](#features)
@@ -19,31 +19,31 @@ A modern, responsive personal portfolio website built with React.js, showcasing 
 - [Deployment](#deployment)
 - [Contact](#contact)
 
-## 🎯 About
+## About
 
 This portfolio website represents my journey as a Computer Science & Cybersecurity student at CVR College of Engineering, Hyderabad. It showcases my technical skills, academic achievements, professional certifications, and project work in an interactive and visually appealing format.
 
-## ✨ Features
+## Features
 
-### 🎨 Design & User Experience
+### Design & User Experience
 - **Modern Dark Theme** - Sleek dark interface with gradient accents
 - **Fully Responsive** - Optimized for desktop, tablet, and mobile devices
 - **Smooth Animations** - Framer Motion powered animations and transitions
 - **Interactive Elements** - Hover effects and smooth scrolling navigation
 - **Clean Typography** - Professional and readable font choices
 
-### 📱 Responsive Layout
+### Responsive Layout
 - Mobile-first design approach
 - Adaptive layouts for different screen sizes
 - Touch-friendly navigation on mobile devices
 
-### 🔗 External Integrations
+### External Integrations
 - **Google Drive Integration** - Direct links to certificates and resume
 - **GitHub Integration** - Links to project repositories
 - **Email Integration** - Direct contact via email client
 - **Phone Integration** - Click-to-call functionality
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Frontend
 - **React.js** - Component-based UI library
@@ -61,19 +61,20 @@ This portfolio website represents my journey as a Computer Science & Cybersecuri
 - **GitHub** - Code repository hosting
 - **Vercel/Netlify** - Deployment platform *(recommended)*
 
-## 📄 Sections
+## Sections
 
-### 🏠 Home
+### Home
 - Professional introduction
 - Role highlights: Cybersecurity Enthusiast | Computer Science Engineer | Full Stack Developer | Problem Solver
 - Call-to-action buttons for resume and contact
 
-### 🎓 Education
+### Education
 - **CVR College of Engineering, Hyderabad** - B.Tech in Computer Science & Cyber Security (CGPA: 8.69)
 - **Narayana Junior College, Hyderabad** - Intermediate (MPC) - 91.5%
 - **Sai Chaitanya Model School, Hyderabad** - 10th Grade (CGPA: 10.0)
 
-### 💼 Projects
+### Projects
+
 #### 1. Hangman Game (GUI Application)
 - **Technologies**: Python, Tkinter, GUI Development, Game Logic
 - **Features**: Interactive GUI, dynamic word database, scoring system, customizable settings
@@ -85,7 +86,7 @@ This portfolio website represents my journey as a Computer Science & Cybersecuri
 - **Repository**: [GitHub Link](https://github.com/akhil5093-k/cyberhunt-quiz)
 - **Live Demo**: [View Application](https://deploy-teal-ten.vercel.app/)
 
-### 🛡️ Skills
+### Skills
 Interactive timeline showcasing technical skills including:
 - **Programming Languages**: Python, JavaScript, Java, C
 - **Web Technologies**: React.js, Node.js, HTML5, CSS3
@@ -93,22 +94,21 @@ Interactive timeline showcasing technical skills including:
 - **Cybersecurity Tools**: Network Security, Threat Analysis
 - **Development Tools**: Git, VS Code, Postman
 
-### 🏆 Certificates
+### Certificates
 Professional certifications with direct viewing links:
 - **Cyber Security Virtual Internship** - EduSkills (AICTE & Palo Alto Networks)
 - **Zero Trust Cloud Security Virtual Internship** - Zscaler
 - **Database Programming with SQL** - Oracle Academy
 - **Google Skill Boost – Gen AI Study Jams** - Google
-- **TCS iON Career Edge – IT Industry Overview** - TCS iON
 
-### 📞 Contact
+### Contact
 Multiple contact methods:
 - **Email**: akhilnayak509321@gmail.com
 - **Phone**: +91 75698 34897
 - **GitHub**: github.com/akhil5093-k
 - **Location**: Hyderabad, India
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -116,6 +116,7 @@ Multiple contact methods:
 - Git
 
 ### Steps
+
 1. **Clone the repository**
    ```bash
    git clone https://github.com/akhil5093-k/portfolio.git
@@ -137,7 +138,7 @@ Multiple contact methods:
    http://localhost:3000
    ```
 
-## 💻 Usage
+## Usage
 
 ### Development
 ```bash
@@ -157,7 +158,7 @@ npm run build
 ```
 This creates a `build` folder with optimized production files.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 portfolio/
@@ -185,7 +186,7 @@ portfolio/
 └── README.md
 ```
 
-## 🎨 Customization
+## Customization
 
 ### Personal Information
 Update the following files with your information:
@@ -205,9 +206,10 @@ Update the following files with your information:
 - Update project repositories and live demo links
 - Modify skills and technologies based on your expertise
 
-## 🚀 Deployment
+## Deployment
 
 ### Recommended Platforms
+
 1. **Vercel** (Recommended)
    ```bash
    npm install -g vercel
@@ -230,7 +232,7 @@ Update the following files with your information:
 - Test all contact methods before deployment
 - Verify responsive design on different devices
 
-## 📈 Performance Features
+## Performance Features
 
 - **Optimized Images** - Efficient loading and display
 - **Code Splitting** - Lazy loading of components
@@ -238,7 +240,7 @@ Update the following files with your information:
 - **SEO Friendly** - Proper meta tags and structure
 - **Fast Loading** - Optimized bundle size
 
-## 🔧 Maintenance
+## Maintenance
 
 ### Regular Updates
 - Keep dependencies updated
@@ -252,7 +254,7 @@ Update the following files with your information:
 - Test contact form functionality
 - Monitor website performance
 
-## 🤝 Contributing
+## Contributing
 
 This is a personal portfolio project, but suggestions and feedback are welcome!
 
@@ -261,11 +263,11 @@ This is a personal portfolio project, but suggestions and feedback are welcome!
 3. Make your changes
 4. Submit a pull request
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 📞 Contact
+## Contact
 
 **Akhil Nayak**
 - Email: akhilnayak509321@gmail.com
@@ -275,6 +277,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-⭐ **If you found this portfolio helpful, please consider giving it a star!**
-
-*Built with ❤️ by Akhil Nayak*
+Built with passion by Akhil Nayak
