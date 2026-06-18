@@ -70,7 +70,7 @@ const Certificates = () => {
       image: "🌐",
       skills: ["TCP/IP & Networking Fundamentals", "Routing & Switching", "Cybersecurity Fundamentals", "Ethical Hacking", "Threat Management", "Network Defense", "Security Operations", "Cyber Threat Analysis"],
       credentialId: "CISCO-CCNA-CYBER-2025-007",
-      file: "https://drive.google.com/file/d/1roQhZlwIJiHD2Dg-08iZQ6J2kvO_0MkB/view?usp=sharing"
+      file: "https://drive.google.com/file/d/1A35EtSlnXyenFauc_tPJPUQ3-xHCJ-Y5/view?usp=sharing"
     },
     {
       id: 8,
