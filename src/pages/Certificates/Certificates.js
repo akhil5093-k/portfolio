@@ -74,12 +74,12 @@ const Certificates = () => {
     },
     {
       id: 8,
-      title: "Fortinet NSE 1, NSE 2, NSE 3 – Network Security Associate",
+      title: "Fortinet NSE 1, NSE 2, NSE 3, NSE 4, NSE 5 – Network Security Professional",
       issuer: "Fortinet",
       date: "2025",
-      description: "Completed Fortinet's Network Security Associate certifications, gaining foundational to intermediate knowledge in cybersecurity concepts, network protection strategies, and Fortinet security solutions. Developed an understanding of threat landscapes and enterprise security architecture. Includes hands-on lab experience with FortiAnalyzer for log management, traffic monitoring, and incident tracking.",
+      description: "Completed Fortinet's Network Security certifications from foundational to professional level. NSE 1–3 cover threat landscapes and security concepts; NSE 4 focuses on FortiGate firewall configuration and network security management; NSE 5 covers FortiManager and FortiAnalyzer for enterprise security operations, centralized management, and advanced log analysis.",
       image: "🛡️",
-      skills: ["Network Security Fundamentals", "Firewall Concepts & Configuration", "Threat Intelligence & Attack Types", "Security Fabric Architecture", "Traffic Monitoring & Analysis", "Security Operations Basics", "FortiGate", "FortiAnalyzer", "Basic SIEM Concepts"],
+      skills: ["Network Security Fundamentals", "Firewall Configuration & Management", "Threat Intelligence & Attack Types", "Security Fabric Architecture", "FortiGate Administration", "FortiManager", "FortiAnalyzer", "Centralized Security Management", "Traffic Monitoring & Analysis", "Advanced SIEM Concepts"],
       credentialId: "FORTINET-NSE-2025-008",
       file: "https://drive.google.com/file/d/1-XZiJXWMISpc1IdV7slXPXOABZDFH_Pm/view?usp=sharing"
     }

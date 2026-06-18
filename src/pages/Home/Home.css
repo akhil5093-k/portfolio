@@ -183,6 +183,35 @@
   background: linear-gradient(135deg, #6c5ce7, #a29bfe);
 }
 
+.social-links {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1.1rem;
+  border-radius: 50px;
+  border: 1.5px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.05);
+  color: #aaa;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(4px);
+}
+
+.social-link:hover {
+  border-color: #00ff88;
+  color: #00ff88;
+  background: rgba(0, 255, 136, 0.08);
+}
+
 .scroll-indicator {
   position: absolute;
   bottom: 30px;
@@ -222,6 +251,10 @@
   }
 
   .hero-buttons {
+    justify-content: center;
+  }
+
+  .social-links {
     justify-content: center;
   }
 
