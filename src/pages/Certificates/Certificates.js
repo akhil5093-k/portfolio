@@ -8,61 +8,17 @@ const Certificates = () => {
   const certificates = [
     {
       id: 1,
-      title: "Cyber Security Virtual Internship",
-      issuer: "EduSkills (AICTE & Palo Alto Networks)",
-      date: "April 2025 – June 2025",
-      description: "Completed comprehensive virtual internship covering real-world cybersecurity challenges, threat detection, network security, and risk mitigation with hands-on security best practices.",
-      image: "🔒",
-      skills: ["Cyber Security Fundamentals", "Fundamentals of Cloud Security", "Fundamentals of SOC", "Network Security Fundamentals"],
-      credentialId: "EDUSKILLS-CYBER-2025-001",
-      file: "https://drive.google.com/file/d/1FRmiOhO6KihqpUJpK4M3TSHFCYZg0kkx/view?usp=sharing"
+      title: "Fortinet NSE 1, NSE 2, NSE 3, NSE 4 – Network Security Professional",
+      issuer: "Fortinet",
+      date: "2025",
+      description: "Completed Fortinet's Network Security certifications from foundational to professional level. NSE 1–3 cover threat landscapes and security concepts; NSE 4 focuses on FortiGate firewall configuration and network security management.",
+      image: "🛡️",
+      skills: ["Network Security Fundamentals", "Firewall Configuration & Management", "Threat Intelligence & Attack Types", "Security Fabric Architecture", "FortiGate Administration", "Traffic Monitoring & Analysis", "Security Operations Basics"],
+      credentialId: "FORTINET-NSE-2025-008",
+      file: "https://drive.google.com/file/d/1-XZiJXWMISpc1IdV7slXPXOABZDFH_Pm/view?usp=sharing"
     },
     {
       id: 2,
-      title: "Zero Trust Cloud Security Virtual Internship",
-      issuer: "Zscaler (Supported by EduSkills & AICTE)",
-      date: "October 2025 – December 2025",
-      description: "Completed 10-week virtual internship focused on Zero Trust Cloud Security, learning core Zero Trust architecture principles, secure access models, and modern enterprise cloud security challenges.",
-      image: "☁️",
-      skills: ["Zero Trust Architecture", "Cloud Security", "Identity-based Access", "Network Protection"],
-      credentialId: "ZSCALER-ZT-2025-002",
-      file: "https://drive.google.com/file/d/1CkGM3uwXskxYHYGzcyCzcVExydLauEOL/view?usp=sharing"
-    },
-    {
-      id: 3,
-      title: "Database Programming with SQL",
-      issuer: "Oracle Academy",
-      date: "Completed: 24 December 2024",
-      description: "Successfully completed Oracle Academy's Database Programming with SQL course, gaining hands-on experience in writing and optimizing SQL queries, relational database design, and data manipulation.",
-      image: "🗄️",
-      skills: ["SQL Programming", "Database Design", "Query Optimization", "Data Manipulation"],
-      credentialId: "ORACLE-SQL-2024-003",
-      file: "https://drive.google.com/file/d/1ccOpJ4yQkl6cBu2hcP2wynKgEdaU2Khi/view?usp=sharing"
-    },
-    {
-      id: 4,
-      title: "Google Skill Boost – Gen AI Study Jams",
-      issuer: "Google",
-      date: "September 2024 – October 2024",
-      description: "Explored Generative AI tools and gained hands-on experience with Google AI platforms, learning about modern AI technologies and their practical applications.",
-      image: "🤖",
-      skills: ["Generative AI", "Google AI Tools", "AI Platforms", "Machine Learning"],
-      credentialId: "GOOGLE-AI-2024-004",
-      file: "https://drive.google.com/file/d/1j1HgshHnMHH0sirXNen-0vtfkYWexMO0/view?usp=sharing"
-    },
-    {
-      id: 6,
-      title: "Red Hat Training: Getting Started with Linux Fundamentals",
-      issuer: "Red Hat, Inc.",
-      date: "December 18, 2025",
-      description: "Successfully attended and completed the Red Hat Training: Getting Started with Linux Fundamentals (RH104 – RHA), Version 9.1. This course provided foundational knowledge of Linux operating systems, including essential command-line usage, system navigation, file management, and core Linux concepts aligned with industry standards.",
-      image: "🐧",
-      skills: ["Linux Operating Systems", "Command-Line Interface", "System Navigation", "File Management", "Linux Fundamentals"],
-      credentialId: "REDHAT-LINUX-2025-006",
-      file: "https://drive.google.com/file/d/1G7e0GBlOidhcfH-63ppPlhI4zxNEPLoQ/view?usp=sharing"
-    },
-    {
-      id: 7,
       title: "CCNA & Cybersecurity – Cisco Networking Academy",
       issuer: "Cisco Networking Academy",
       date: "2025",
@@ -73,16 +29,60 @@ const Certificates = () => {
       file: "https://drive.google.com/file/d/1A35EtSlnXyenFauc_tPJPUQ3-xHCJ-Y5/view?usp=sharing"
     },
     {
-      id: 8,
-      title: "Fortinet NSE 1, NSE 2, NSE 3, NSE 4, NSE 5 – Network Security Professional",
-      issuer: "Fortinet",
-      date: "2025",
-      description: "Completed Fortinet's Network Security certifications from foundational to professional level. NSE 1–3 cover threat landscapes and security concepts; NSE 4 focuses on FortiGate firewall configuration and network security management; NSE 5 covers FortiManager and FortiAnalyzer for enterprise security operations, centralized management, and advanced log analysis.",
-      image: "🛡️",
-      skills: ["Network Security Fundamentals", "Firewall Configuration & Management", "Threat Intelligence & Attack Types", "Security Fabric Architecture", "FortiGate Administration", "FortiManager", "FortiAnalyzer", "Centralized Security Management", "Traffic Monitoring & Analysis", "Advanced SIEM Concepts"],
-      credentialId: "FORTINET-NSE-2025-008",
-      file: "https://drive.google.com/file/d/1-XZiJXWMISpc1IdV7slXPXOABZDFH_Pm/view?usp=sharing"
-    }
+      id: 3,
+      title: "Red Hat Training: Getting Started with Linux Fundamentals",
+      issuer: "Red Hat, Inc.",
+      date: "December 18, 2025",
+      description: "Successfully attended and completed the Red Hat Training: Getting Started with Linux Fundamentals (RH104 – RHA), Version 9.1. This course provided foundational knowledge of Linux operating systems, including essential command-line usage, system navigation, file management, and core Linux concepts aligned with industry standards.",
+      image: "🐧",
+      skills: ["Linux Operating Systems", "Command-Line Interface", "System Navigation", "File Management", "Linux Fundamentals"],
+      credentialId: "REDHAT-LINUX-2025-006",
+      file: "https://drive.google.com/file/d/1G7e0GBlOidhcfH-63ppPlhI4zxNEPLoQ/view?usp=sharing"
+    },
+    {
+      id: 4,
+      title: "Database Programming with SQL",
+      issuer: "Oracle Academy",
+      date: "Completed: 24 December 2024",
+      description: "Successfully completed Oracle Academy's Database Programming with SQL course, gaining hands-on experience in writing and optimizing SQL queries, relational database design, and data manipulation.",
+      image: "🗄️",
+      skills: ["SQL Programming", "Database Design", "Query Optimization", "Data Manipulation"],
+      credentialId: "ORACLE-SQL-2024-003",
+      file: "https://drive.google.com/file/d/1ccOpJ4yQkl6cBu2hcP2wynKgEdaU2Khi/view?usp=sharing"
+    },
+    {
+      id: 5,
+      title: "Zero Trust Cloud Security Virtual Internship",
+      issuer: "Zscaler (Supported by EduSkills & AICTE)",
+      date: "October 2025 – December 2025",
+      description: "Completed 10-week virtual internship focused on Zero Trust Cloud Security, learning core Zero Trust architecture principles, secure access models, and modern enterprise cloud security challenges.",
+      image: "☁️",
+      skills: ["Zero Trust Architecture", "Cloud Security", "Identity-based Access", "Network Protection"],
+      credentialId: "ZSCALER-ZT-2025-002",
+      file: "https://drive.google.com/file/d/1CkGM3uwXskxYHYGzcyCzcVExydLauEOL/view?usp=sharing"
+    },
+    {
+      id: 6,
+      title: "Cyber Security Virtual Internship",
+      issuer: "EduSkills (AICTE & Palo Alto Networks)",
+      date: "April 2025 – June 2025",
+      description: "Completed comprehensive virtual internship covering real-world cybersecurity challenges, threat detection, network security, and risk mitigation with hands-on security best practices.",
+      image: "🔒",
+      skills: ["Cyber Security Fundamentals", "Fundamentals of Cloud Security", "Fundamentals of SOC", "Network Security Fundamentals"],
+      credentialId: "EDUSKILLS-CYBER-2025-001",
+      file: "https://drive.google.com/file/d/1FRmiOhO6KihqpUJpK4M3TSHFCYZg0kkx/view?usp=sharing"
+    },
+    {
+      id: 7,
+      title: "Google Skill Boost – Gen AI Study Jams",
+      issuer: "Google",
+      date: "September 2024 – October 2024",
+      description: "Explored Generative AI tools and gained hands-on experience with Google AI platforms, learning about modern AI technologies and their practical applications.",
+      image: "🤖",
+      skills: ["Generative AI", "Google AI Tools", "AI Platforms", "Machine Learning"],
+      credentialId: "GOOGLE-AI-2024-004",
+      file: "https://drive.google.com/file/d/1j1HgshHnMHH0sirXNen-0vtfkYWexMO0/view?usp=sharing"
+    },
   ];
 
   const handleCertificateClick = (certificate) => {
