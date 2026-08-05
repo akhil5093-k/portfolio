@@ -14,7 +14,7 @@ const Certificates = () => {
       description: "Completed Fortinet's Network Security certifications from foundational to professional level. NSE 1–3 cover threat landscapes and security concepts; NSE 4 focuses on FortiGate firewall configuration and network security management.",
       image: "🛡️",
       skills: ["Network Security Fundamentals", "Firewall Configuration & Management", "Threat Intelligence & Attack Types", "Security Fabric Architecture", "FortiGate Administration", "Traffic Monitoring & Analysis", "Security Operations Basics"],
-      credentialId: "FORTINET-NSE-2025-008",
+      credentialId: "FORTINET-NSE-2025-001",
       file: "https://drive.google.com/file/d/1-XZiJXWMISpc1IdV7slXPXOABZDFH_Pm/view?usp=sharing"
     },
     {
@@ -25,7 +25,7 @@ const Certificates = () => {
       description: "Completed industry-recognized Cisco Networking Academy courses covering networking, cybersecurity, ethical hacking, threat management, and network defense. Gained hands-on knowledge of TCP/IP, routing and switching, security operations, and cyber threat analysis. This certificate covers 8 completed Cisco courses.",
       image: "🌐",
       skills: ["TCP/IP & Networking Fundamentals", "Routing & Switching", "Cybersecurity Fundamentals", "Ethical Hacking", "Threat Management", "Network Defense", "Security Operations", "Cyber Threat Analysis"],
-      credentialId: "CISCO-CCNA-CYBER-2025-007",
+      credentialId: "CISCO-CCNA-CYBER-2025-002",
       file: "https://drive.google.com/file/d/1A35EtSlnXyenFauc_tPJPUQ3-xHCJ-Y5/view?usp=sharing"
     },
     {
@@ -36,7 +36,7 @@ const Certificates = () => {
       description: "Successfully attended and completed the Red Hat Training: Getting Started with Linux Fundamentals (RH104 – RHA), Version 9.1. This course provided foundational knowledge of Linux operating systems, including essential command-line usage, system navigation, file management, and core Linux concepts aligned with industry standards.",
       image: "🐧",
       skills: ["Linux Operating Systems", "Command-Line Interface", "System Navigation", "File Management", "Linux Fundamentals"],
-      credentialId: "REDHAT-LINUX-2025-006",
+      credentialId: "REDHAT-LINUX-2025-003",
       file: "https://drive.google.com/file/d/1G7e0GBlOidhcfH-63ppPlhI4zxNEPLoQ/view?usp=sharing"
     },
     {
@@ -47,7 +47,7 @@ const Certificates = () => {
       description: "Successfully completed Oracle Academy's Database Programming with SQL course, gaining hands-on experience in writing and optimizing SQL queries, relational database design, and data manipulation.",
       image: "🗄️",
       skills: ["SQL Programming", "Database Design", "Query Optimization", "Data Manipulation"],
-      credentialId: "ORACLE-SQL-2024-003",
+      credentialId: "ORACLE-SQL-2024-004",
       file: "https://drive.google.com/file/d/1ccOpJ4yQkl6cBu2hcP2wynKgEdaU2Khi/view?usp=sharing"
     },
     {
@@ -58,7 +58,7 @@ const Certificates = () => {
       description: "Completed 10-week virtual internship focused on Zero Trust Cloud Security, learning core Zero Trust architecture principles, secure access models, and modern enterprise cloud security challenges.",
       image: "☁️",
       skills: ["Zero Trust Architecture", "Cloud Security", "Identity-based Access", "Network Protection"],
-      credentialId: "ZSCALER-ZT-2025-002",
+      credentialId: "ZSCALER-ZT-2025-005",
       file: "https://drive.google.com/file/d/1CkGM3uwXskxYHYGzcyCzcVExydLauEOL/view?usp=sharing"
     },
     {
@@ -69,7 +69,7 @@ const Certificates = () => {
       description: "Completed comprehensive virtual internship covering real-world cybersecurity challenges, threat detection, network security, and risk mitigation with hands-on security best practices.",
       image: "🔒",
       skills: ["Cyber Security Fundamentals", "Fundamentals of Cloud Security", "Fundamentals of SOC", "Network Security Fundamentals"],
-      credentialId: "EDUSKILLS-CYBER-2025-001",
+      credentialId: "EDUSKILLS-CYBER-2025-006",
       file: "https://drive.google.com/file/d/1FRmiOhO6KihqpUJpK4M3TSHFCYZg0kkx/view?usp=sharing"
     },
     {
@@ -80,7 +80,7 @@ const Certificates = () => {
       description: "Explored Generative AI tools and gained hands-on experience with Google AI platforms, learning about modern AI technologies and their practical applications.",
       image: "🤖",
       skills: ["Generative AI", "Google AI Tools", "AI Platforms", "Machine Learning"],
-      credentialId: "GOOGLE-AI-2024-004",
+      credentialId: "GOOGLE-AI-2024-007",
       file: "https://drive.google.com/file/d/1j1HgshHnMHH0sirXNen-0vtfkYWexMO0/view?usp=sharing"
     },
   ];
